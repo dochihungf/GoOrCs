@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoOrCs.Domain", "GoOrCs.Domain\GoOrCs.Domain.csproj", "{3818B71D-0407-4B3F-8906-CD18E654E012}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoOrCs.Application", "GoOrCs.Application\GoOrCs.Application.csproj", "{440EE9DA-3E46-4CC7-970C-EF6D8D3D15A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoOrCs.Infrastructure.PostgreSQL", "GoOrCs.Infrastructure.PostgreSQL\GoOrCs.Infrastructure.PostgreSQL.csproj", "{12D3D679-6D2F-470E-A1BC-43EAF8BE5667}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoOrCs.Infrastructure.MySQL", "GoOrCs.Infrastructure.MySQL\GoOrCs.Infrastructure.MySQL.csproj", "{A444FB87-C898-4320-810C-953A551EA7F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoOrCs.Infrastructure.CloudStorage", "GoOrCs.Infrastructure.CloudStorage\GoOrCs.Infrastructure.CloudStorage.csproj", "{F4CCE036-A02F-4ED6-B86E-AE3CED800931}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoOrCs.SharedKernel", "GoOrCs.SharedKernel\GoOrCs.SharedKernel.csproj", "{534CA88C-6E5F-4AAF-9F61-60F0CB859D5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoOrCs.Api", "GoOrCs.Api\GoOrCs.Api.csproj", "{C0CB2F4B-0099-4766-9F9F-6BC3044D4179}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3818B71D-0407-4B3F-8906-CD18E654E012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3818B71D-0407-4B3F-8906-CD18E654E012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3818B71D-0407-4B3F-8906-CD18E654E012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3818B71D-0407-4B3F-8906-CD18E654E012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{440EE9DA-3E46-4CC7-970C-EF6D8D3D15A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{440EE9DA-3E46-4CC7-970C-EF6D8D3D15A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{440EE9DA-3E46-4CC7-970C-EF6D8D3D15A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{440EE9DA-3E46-4CC7-970C-EF6D8D3D15A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12D3D679-6D2F-470E-A1BC-43EAF8BE5667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12D3D679-6D2F-470E-A1BC-43EAF8BE5667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12D3D679-6D2F-470E-A1BC-43EAF8BE5667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12D3D679-6D2F-470E-A1BC-43EAF8BE5667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A444FB87-C898-4320-810C-953A551EA7F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A444FB87-C898-4320-810C-953A551EA7F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A444FB87-C898-4320-810C-953A551EA7F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A444FB87-C898-4320-810C-953A551EA7F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4CCE036-A02F-4ED6-B86E-AE3CED800931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4CCE036-A02F-4ED6-B86E-AE3CED800931}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4CCE036-A02F-4ED6-B86E-AE3CED800931}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4CCE036-A02F-4ED6-B86E-AE3CED800931}.Release|Any CPU.Build.0 = Release|Any CPU
+		{534CA88C-6E5F-4AAF-9F61-60F0CB859D5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{534CA88C-6E5F-4AAF-9F61-60F0CB859D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{534CA88C-6E5F-4AAF-9F61-60F0CB859D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{534CA88C-6E5F-4AAF-9F61-60F0CB859D5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0CB2F4B-0099-4766-9F9F-6BC3044D4179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0CB2F4B-0099-4766-9F9F-6BC3044D4179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0CB2F4B-0099-4766-9F9F-6BC3044D4179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0CB2F4B-0099-4766-9F9F-6BC3044D4179}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
